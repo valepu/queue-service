@@ -1,0 +1,26 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "./dist",
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"strictPropertyInitialization": false,
+		"strictNullChecks": false,
+		"noImplicitReturns": true,
+		"noImplicitAny": false,
+		"noFallthroughCasesInSwitch": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"sourceMap": true,
+		"declaration": false,
+		"downlevelIteration": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"target": "es2017",
+		"module": "es2020",
+		"lib": ["es2018", "dom"]
+	},
+	"include": ["src/**/*.ts", "index.ts"],
+	"exclude": ["node_modules"]
+}

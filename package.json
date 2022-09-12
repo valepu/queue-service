@@ -1,0 +1,29 @@
+{
+  "name": "queue-service",
+  "version": "0.0.1",
+  "description": "Queue Service",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "source": "index.ts",
+  "repository": "https://github.com/valepu/queue-service.git",
+  "author": "valepu <valepu86@gmail.com>",
+  "keywords": [
+    "queue",
+	"microfrontends"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src",
+    "tsconfig.json",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -watch",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "~4.3.5"
+  }
+}
