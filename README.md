@@ -1,2 +1,2 @@
-# std-queue
+# Queue Service
 Queue Service
