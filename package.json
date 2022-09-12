@@ -1,6 +1,6 @@
 {
-  "name": "queue-service",
-  "version": "0.0.1",
+  "name": "queue-service-js",
+  "version": "0.0.3",
   "description": "Queue Service",
   "main": "dist/index.js",
   "types": "index.d.ts",

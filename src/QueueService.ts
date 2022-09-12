@@ -13,7 +13,7 @@ interface QueueElement {
 	deferred: Deferred<any>;
 }
 
-export default class QueueService {
+export class QueueService {
 	private static queues: { [key: string]: QueueHandler } = {};
 	private working: { [key: string]: boolean } = {};
 	private static config = {
